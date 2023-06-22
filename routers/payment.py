@@ -1,4 +1,4 @@
-from typing import Annotated
+from typing_extensions import Annotated
 from .address import user_dependency
 from passlib.context import CryptContext
 from models import Payment
