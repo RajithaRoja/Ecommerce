@@ -17,8 +17,3 @@ app.include_router(rating.router)
 app.include_router(payment.router)
 app.include_router(DeliverStatus.router)
 
-
-
-
-
-

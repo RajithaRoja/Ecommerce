@@ -88,5 +88,3 @@ async def delete(user: user_dependency, db: db_dependency, delete_id: int):
     db.commit()
     return {"message": "Deleted successfully"}
 
-
-
