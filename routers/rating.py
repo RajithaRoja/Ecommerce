@@ -1,5 +1,5 @@
 from models import Rating
-from typing import Annotated
+from typing_extensions import Annotated
 from .auth import get_db, get_current_user
 from fastapi import HTTPException, Depends, APIRouter
 from pydantic import BaseModel
