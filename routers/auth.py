@@ -1,5 +1,5 @@
 from datetime import timedelta, datetime
-from typing import Annotated
+from typing_extensions import Annotated
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import jwt, JWTError
 from passlib.context import CryptContext
