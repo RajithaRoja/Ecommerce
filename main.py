@@ -1,5 +1,7 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import models
+import uvicorn
 from database import engine
 from routers import auth, register, address, menu, orders, rating, payment, DeliverStatus
 
